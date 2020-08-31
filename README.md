@@ -1,6 +1,6 @@
 # vue-dockerized
 
-## For development
+## Em desenvolvimento
 
 ### Construir a aplicação:
 
@@ -10,7 +10,7 @@
 
 `docker-compose up`
 
-## For production
+## Em produção
 
 ### Construir a aplicação:
 

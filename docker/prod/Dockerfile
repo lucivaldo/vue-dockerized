@@ -1,4 +1,4 @@
-FROM node:lts-buster-slim AS builder
+FROM node:lts-buster-slim AS build-stage
 
 # make the 'app' folder the current working directory
 WORKDIR /app
@@ -20,7 +20,7 @@ RUN npm run build
 
 FROM nginx:stable-alpine as production-stage
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=build-stage /app/dist /usr/share/nginx/html
 
 EXPOSE 80
 

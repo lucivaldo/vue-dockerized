@@ -2,10 +2,20 @@
 
 ## For development
 
-Build step: `docker-compose build`
-Up app: `docker-compose up`
+### Construir a aplicação:
+
+`docker-compose build`
+
+### Levantar a aplicação:
+
+`docker-compose up`
 
 ## For production
 
-Build step: `docker-compose -f docker-compose.prod.yml build`
-Up app: `docker-compose -f docker-compose.prod.yml up`
+### Construir a aplicação:
+
+`docker-compose -f docker-compose.prod.yml build`
+
+### Levantar a aplicação:
+
+`docker-compose -f docker-compose.prod.yml up`

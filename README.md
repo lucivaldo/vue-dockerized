@@ -1,24 +1,11 @@
 # vue-dockerized
 
-## Project setup
-```
-yarn install
-```
+## For development
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Build step: `docker-compose build`
+Up app: `docker-compose up`
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## For production
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Build step: `docker-compose -f docker-compose.prod.yml build`
+Up app: `docker-compose -f docker-compose.prod.yml up`

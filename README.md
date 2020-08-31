@@ -1,5 +1,7 @@
 # vue-dockerized
 
+Exemplo de uma aplicação Vue com Docker
+
 ## Em desenvolvimento
 
 ### Construir a aplicação:
